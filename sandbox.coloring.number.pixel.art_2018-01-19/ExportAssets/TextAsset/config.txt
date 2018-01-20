@@ -1,0 +1,13 @@
+{
+"pictureAmount":219,
+"greyscaleWeight":0.8,
+"greyscaleWeight2":0.2,
+"zoomFade":19,
+"zoomGrid":14,
+"zoomMax":9,
+"greyRatio":0.3,
+"drawRatio":0.8,
+"swipeMax":40,
+"grid_opacity":0.3,
+"grid_selectColor":[50,50,50]
+}

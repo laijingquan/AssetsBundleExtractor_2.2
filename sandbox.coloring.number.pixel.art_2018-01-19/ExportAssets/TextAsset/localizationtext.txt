@@ -1,0 +1,122 @@
+{
+	"zoom_in":{
+		"English":"Zoom in",
+		"French":"Agrandir",
+		"German":"Hineinzoomen",
+		"Korean":"확대",
+		"Japanese":"ズームイン"
+	},
+	"zoom_out":{
+		"English":"Zoom out",
+		"French":"Dézoomer",
+		"German":"Rauszoomen",
+		"Korean":"축소",
+		"Japanese":"ズームアウト"
+	},
+	"select_color":{
+		"English":"Pick a color and tap boxes with matching number",
+		"French":"Choisissez une couleur et appuyez sur les cases avec le numéro correspondant",
+		"German":"Wählen Sie eine Farbe und tippen Sie auf Kästchen mit der entsprechenden Nummer",
+		"Korean":"색상을 선택하고 숫자가 일치하는 상자를 누릅니다",
+		"Japanese":"色を選んで数字が一致するタップボックス"
+	},
+	"long_press":{
+		"English":"Long press and slide to color multiple boxes",
+		"French":"Appuyez longuement et faites glisser pour peindre plusieurs boîtes",
+		"German":"Lange drücken und schieben, um mehrere Felder zu malen",
+		"Korean":"긴 상자를 눌러 여러 상자를 칠합니다",
+		"Japanese":"長押ししてより速く塗り絵ができます"
+	},
+	"start":{
+		"English":"Start",
+		"French":"Début",
+		"German":"Anfang",
+		"Korean":"스타트",
+		"Japanese":"開始"
+	},
+	"view_all":{
+		"English":"VIEW ALL",
+		"French":"VOIR TOUT",
+		"German":"ALLE ANSEHEN",
+		"Korean":"스타트",
+		"Japanese":"すべてを見る"
+	},
+	"CARTOON":{
+		"English":"CARTOON",
+		"French":"DESSIN ANIMÉ",
+		"German":"KARIKATUR",
+		"Korean":"만화",
+		"Japanese":"漫画"
+	},
+	"ANIMAL":{
+		"English":"ANIMAL",
+		"French":"ANIMAL",
+		"German":"TIER",
+		"Korean":"동물",
+		"Japanese":"動物"
+	},
+	"KID":{
+		"English":"KID",
+		"French":"ENFANT",
+		"German":"KIND",
+		"Korean":"아이",
+		"Japanese":"キッド"
+	},
+	"PLANT":{
+		"English":"PLANT",
+		"French":"LES PLANTES",
+		"German":"PFLANZEN",
+		"Korean":"식물",
+		"Japanese":"植物"
+	},
+	"FOOD":{
+		"English":"FOOD",
+		"French":"ALIMENTS",
+		"German":"LEBENSMITTEL",
+		"Korean":"식품",
+		"Japanese":"フード"
+	},
+	"HOUSEHOLD":{
+		"English":"HOUSEHOLD",
+		"French":"MÉNAGE",
+		"German":"HAUSHALT",
+		"Korean":"가정",
+		"Japanese":"家庭"
+	},
+	"OTHERS":{
+		"English":"OTHERS",
+		"French":"AUTRES",
+		"German":"ANDERE",
+		"Korean":"기타",
+		"Japanese":"その他"
+	},
+	"DAILY":{
+		"English":"DAILY NEW",
+		"French":"QUOTIDIEN NOUVEAU",
+		"German":"TÄGLICH BILDER",
+		"Korean":"매일 새로운",
+		"Japanese":"毎日新しい"
+	},
+	"next_release":{
+		"English":"NEXT RELEASE:",
+		"French":"NOUVELLES IMAGES:",
+		"German":"NEUE BILDER:",
+		"Korean":"새로운 이미지 :",
+		"Japanese":"新しい画像："
+	},
+	"my_work":{
+		"English":"MY WORK",
+		"French":"MON TRAVAIL",
+		"German":"MEINE ARBEIT",
+		"Korean":"내 이미지",
+		"Japanese":"私の画像："
+	},
+	"save_successfully":{
+		"English":"Save successfully!",
+		"French":"Sauvegarde réussie!",
+		"German":"Erfolgreich gespeichert!",
+		"Korean":"성공적으로 저장!",
+		"Japanese":"セーブに成功！"
+	}
+
+}

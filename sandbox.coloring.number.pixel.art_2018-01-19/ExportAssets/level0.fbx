@@ -1,0 +1,230 @@
+; FBX 7.1.0 project file
+FBXHeaderExtension:  {
+	FBXHeaderVersion: 1003
+	FBXVersion: 7100
+	CreationTimeStamp:  {
+		Version: 1000
+		Year: 2018
+		Month: 1
+		Day: 20
+		Hour: 23
+		Minute: 34
+		Second: 11
+		Millisecond: 27
+	}
+	Creator: "Unity Studio by Chipicao"
+}
+
+GlobalSettings:  {
+	Version: 1000
+	Properties70:  {
+		P: "UpAxis", "int", "Integer", "",1
+		P: "UpAxisSign", "int", "Integer", "",1
+		P: "FrontAxis", "int", "Integer", "",2
+		P: "FrontAxisSign", "int", "Integer", "",1
+		P: "CoordAxis", "int", "Integer", "",0
+		P: "CoordAxisSign", "int", "Integer", "",1
+		P: "OriginalUpAxis", "int", "Integer", "",1
+		P: "OriginalUpAxisSign", "int", "Integer", "",1
+		P: "UnitScaleFactor", "double", "Number", "",2.54
+		P: "OriginalUnitScaleFactor", "double", "Number", "",1.0
+	}
+}
+
+Documents:  {
+	Count: 1
+	Document: 1234567890, "", "Scene" {
+		Properties70:  {
+			P: "SourceObject", "object", "", ""
+			P: "ActiveAnimStackName", "KString", "", "", ""
+		}
+		RootNode: 0
+	}
+}
+
+References:  {
+}
+
+Definitions:  {
+	Version: 100
+	Count: 14
+	ObjectType: "GlobalSettings" {
+		Count: 1
+	}
+	ObjectType: "Model" {
+		Count: 6
+	}
+	ObjectType: "NodeAttribute" {
+		Count: 6
+		PropertyTemplate: "FbxNull" {
+			Properties70:  {
+				P: "Color", "ColorRGB", "Color", "",0.8,0.8,0.8
+				P: "Size", "double", "Number", "",100
+				P: "Look", "enum", "", "",1
+			}
+		}
+	}
+	ObjectType: "Geometry" {
+		Count: 0
+	}
+	ObjectType: "Material" {
+		Count: 0
+	}
+	ObjectType: "Texture" {
+		Count: 0
+	}
+	ObjectType: "Video" {
+		Count: 0
+	}
+	ObjectType: "CollectionExclusive" {
+		Count: 0
+		PropertyTemplate: "FbxDisplayLayer" {
+			Properties70:  {
+				P: "Color", "ColorRGB", "Color", "",0.8,0.8,0.8
+				P: "Show", "bool", "", "",1
+				P: "Freeze", "bool", "", "",0
+				P: "LODBox", "bool", "", "",0
+			}
+		}
+	}
+	ObjectType: "Deformer" {
+		Count: 0
+	}
+	ObjectType: "Pose" {
+		Count: 1
+	}
+}
+
+Objects:  {
+	NodeAttribute: 200102, "NodeAttribute::", "Null" {
+		TypeFlags: "Null"
+	}
+	Model: 100102, "Model::GameLoading", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",0,0,0
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",0,0,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",1,1,1
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	NodeAttribute: 200103, "NodeAttribute::", "Null" {
+		TypeFlags: "Null"
+	}
+	Model: 100103, "Model::Image_1", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	NodeAttribute: 200104, "NodeAttribute::", "Null" {
+		TypeFlags: "Null"
+	}
+	Model: 100104, "Model::Image", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	NodeAttribute: 200105, "NodeAttribute::", "Null" {
+		TypeFlags: "Null"
+	}
+	Model: 100105, "Model::EventSystem", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",0,0,0
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",0,0,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",1,1,1
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	NodeAttribute: 200106, "NodeAttribute::", "Null" {
+		TypeFlags: "Null"
+	}
+	Model: 100106, "Model::Canvas", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	NodeAttribute: 200107, "NodeAttribute::", "Null" {
+		TypeFlags: "Null"
+	}
+	Model: 100107, "Model::Main Camera", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",0,0,-10
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",0,0,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",1,1,1
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	Pose: 5123456789, "Pose::BIND_POSES", "BindPose" {
+		Type: "BindPose"
+		Version: 100
+		NbPoseNodes: 0
+	}
+}
+
+Connections:  {
+
+	;NodeAttribute::, Model::GameLoading
+	C: "OO",200102,100102
+
+	;Model::GameLoading, Model::RootNode
+	C: "OO",100102,0
+
+	;NodeAttribute::, Model::Image_1
+	C: "OO",200103,100103
+
+	;Model::Image_1, Model::RootNode
+	C: "OO",100103,0
+
+	;NodeAttribute::, Model::Image
+	C: "OO",200104,100104
+
+	;Model::Image, Model::RootNode
+	C: "OO",100104,0
+
+	;NodeAttribute::, Model::EventSystem
+	C: "OO",200105,100105
+
+	;Model::EventSystem, Model::RootNode
+	C: "OO",100105,0
+
+	;NodeAttribute::, Model::Canvas
+	C: "OO",200106,100106
+
+	;Model::Canvas, Model::RootNode
+	C: "OO",100106,0
+
+	;NodeAttribute::, Model::Main Camera
+	C: "OO",200107,100107
+
+	;Model::Main Camera, Model::RootNode
+	C: "OO",100107,0
+}

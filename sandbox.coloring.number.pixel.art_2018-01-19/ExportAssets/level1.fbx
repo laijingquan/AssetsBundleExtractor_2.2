@@ -1,0 +1,368 @@
+; FBX 7.1.0 project file
+FBXHeaderExtension:  {
+	FBXHeaderVersion: 1003
+	FBXVersion: 7100
+	CreationTimeStamp:  {
+		Version: 1000
+		Year: 2018
+		Month: 1
+		Day: 20
+		Hour: 23
+		Minute: 34
+		Second: 25
+		Millisecond: 790
+	}
+	Creator: "Unity Studio by Chipicao"
+}
+
+GlobalSettings:  {
+	Version: 1000
+	Properties70:  {
+		P: "UpAxis", "int", "Integer", "",1
+		P: "UpAxisSign", "int", "Integer", "",1
+		P: "FrontAxis", "int", "Integer", "",2
+		P: "FrontAxisSign", "int", "Integer", "",1
+		P: "CoordAxis", "int", "Integer", "",0
+		P: "CoordAxisSign", "int", "Integer", "",1
+		P: "OriginalUpAxis", "int", "Integer", "",1
+		P: "OriginalUpAxisSign", "int", "Integer", "",1
+		P: "UnitScaleFactor", "double", "Number", "",2.54
+		P: "OriginalUnitScaleFactor", "double", "Number", "",1.0
+	}
+}
+
+Documents:  {
+	Count: 1
+	Document: 1234567890, "", "Scene" {
+		Properties70:  {
+			P: "SourceObject", "object", "", ""
+			P: "ActiveAnimStackName", "KString", "", "", ""
+		}
+		RootNode: 0
+	}
+}
+
+References:  {
+}
+
+Definitions:  {
+	Version: 100
+	Count: 26
+	ObjectType: "GlobalSettings" {
+		Count: 1
+	}
+	ObjectType: "Model" {
+		Count: 12
+	}
+	ObjectType: "NodeAttribute" {
+		Count: 12
+		PropertyTemplate: "FbxNull" {
+			Properties70:  {
+				P: "Color", "ColorRGB", "Color", "",0.8,0.8,0.8
+				P: "Size", "double", "Number", "",100
+				P: "Look", "enum", "", "",1
+			}
+		}
+	}
+	ObjectType: "Geometry" {
+		Count: 0
+	}
+	ObjectType: "Material" {
+		Count: 0
+	}
+	ObjectType: "Texture" {
+		Count: 0
+	}
+	ObjectType: "Video" {
+		Count: 0
+	}
+	ObjectType: "CollectionExclusive" {
+		Count: 0
+		PropertyTemplate: "FbxDisplayLayer" {
+			Properties70:  {
+				P: "Color", "ColorRGB", "Color", "",0.8,0.8,0.8
+				P: "Show", "bool", "", "",1
+				P: "Freeze", "bool", "", "",0
+				P: "LODBox", "bool", "", "",0
+			}
+		}
+	}
+	ObjectType: "Deformer" {
+		Count: 0
+	}
+	ObjectType: "Pose" {
+		Count: 1
+	}
+}
+
+Objects:  {
+	NodeAttribute: 200202, "NodeAttribute::", "Null" {
+		TypeFlags: "Null"
+	}
+	Model: 100202, "Model::GameUICanvas", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	NodeAttribute: 200203, "NodeAttribute::", "Null" {
+		TypeFlags: "Null"
+	}
+	Model: 100203, "Model::GameTilesLayer", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",0,0,0
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",0,0,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",1,1,1
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	NodeAttribute: 200204, "NodeAttribute::", "Null" {
+		TypeFlags: "Null"
+	}
+	Model: 100204, "Model::UniShare", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",0,0,0
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",0,0,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",1,1,1
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	NodeAttribute: 200205, "NodeAttribute::", "Null" {
+		TypeFlags: "Null"
+	}
+	Model: 100205, "Model::CaptureAndSave", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",0,0,0
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",0,0,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",1,1,1
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	NodeAttribute: 200206, "NodeAttribute::", "Null" {
+		TypeFlags: "Null"
+	}
+	Model: 100206, "Model::CaptureAndSaveSDK", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",0,0,0
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",0,0,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",1,1,1
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	NodeAttribute: 200207, "NodeAttribute::", "Null" {
+		TypeFlags: "Null"
+	}
+	Model: 100207, "Model::EventSystem", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",0,0,0
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",0,0,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",0,0,0
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	NodeAttribute: 200208, "NodeAttribute::", "Null" {
+		TypeFlags: "Null"
+	}
+	Model: 100208, "Model::RefreshGallery", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",0,0,0
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",0,0,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",1,1,1
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	NodeAttribute: 200209, "NodeAttribute::", "Null" {
+		TypeFlags: "Null"
+	}
+	Model: 100209, "Model::Main Camera", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",0,0,-10
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",0,0,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",1,1,1
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	NodeAttribute: 200210, "NodeAttribute::", "Null" {
+		TypeFlags: "Null"
+	}
+	Model: 100210, "Model::GameReplayLayer", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",0,0,0
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",0,0,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",1,1,1
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	NodeAttribute: 200211, "NodeAttribute::", "Null" {
+		TypeFlags: "Null"
+	}
+	Model: 100211, "Model::GameTouchLayer", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",0,0,0
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",0,0,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",1,1,1
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	NodeAttribute: 200212, "NodeAttribute::", "Null" {
+		TypeFlags: "Null"
+	}
+	Model: 100212, "Model::Easytouch", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",0,0,0
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",0,0,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",1,1,1
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	NodeAttribute: 200213, "NodeAttribute::", "Null" {
+		TypeFlags: "Null"
+	}
+	Model: 100213, "Model::GameInit", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",0,0,0
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",0,0,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",1,1,1
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	Pose: 5123456789, "Pose::BIND_POSES", "BindPose" {
+		Type: "BindPose"
+		Version: 100
+		NbPoseNodes: 0
+	}
+}
+
+Connections:  {
+
+	;NodeAttribute::, Model::GameUICanvas
+	C: "OO",200202,100202
+
+	;Model::GameUICanvas, Model::RootNode
+	C: "OO",100202,0
+
+	;NodeAttribute::, Model::GameTilesLayer
+	C: "OO",200203,100203
+
+	;Model::GameTilesLayer, Model::RootNode
+	C: "OO",100203,0
+
+	;NodeAttribute::, Model::UniShare
+	C: "OO",200204,100204
+
+	;Model::UniShare, Model::RootNode
+	C: "OO",100204,0
+
+	;NodeAttribute::, Model::CaptureAndSave
+	C: "OO",200205,100205
+
+	;Model::CaptureAndSave, Model::RootNode
+	C: "OO",100205,0
+
+	;NodeAttribute::, Model::CaptureAndSaveSDK
+	C: "OO",200206,100206
+
+	;Model::CaptureAndSaveSDK, Model::RootNode
+	C: "OO",100206,0
+
+	;NodeAttribute::, Model::EventSystem
+	C: "OO",200207,100207
+
+	;Model::EventSystem, Model::GameUICanvas
+	C: "OO",100207,100202
+
+	;NodeAttribute::, Model::RefreshGallery
+	C: "OO",200208,100208
+
+	;Model::RefreshGallery, Model::RootNode
+	C: "OO",100208,0
+
+	;NodeAttribute::, Model::Main Camera
+	C: "OO",200209,100209
+
+	;Model::Main Camera, Model::RootNode
+	C: "OO",100209,0
+
+	;NodeAttribute::, Model::GameReplayLayer
+	C: "OO",200210,100210
+
+	;Model::GameReplayLayer, Model::RootNode
+	C: "OO",100210,0
+
+	;NodeAttribute::, Model::GameTouchLayer
+	C: "OO",200211,100211
+
+	;Model::GameTouchLayer, Model::RootNode
+	C: "OO",100211,0
+
+	;NodeAttribute::, Model::Easytouch
+	C: "OO",200212,100212
+
+	;Model::Easytouch, Model::RootNode
+	C: "OO",100212,0
+
+	;NodeAttribute::, Model::GameInit
+	C: "OO",200213,100213
+
+	;Model::GameInit, Model::RootNode
+	C: "OO",100213,0
+}
