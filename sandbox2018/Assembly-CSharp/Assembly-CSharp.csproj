@@ -1,0 +1,421 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D140A057-DAE1-4D22-A005-6518C1E06E25}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Assembly-CSharp</RootNamespace>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>E:\LaiTools\sandbox.coloring.number.pixel.art_2018-01-19\assets\bin\Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="CaptureAndSaveLib">
+      <HintPath>E:\LaiTools\sandbox.coloring.number.pixel.art_2018-01-19\assets\bin\Data\Managed\CaptureAndSaveLib.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>E:\LaiTools\sandbox.coloring.number.pixel.art_2018-01-19\assets\bin\Data\Managed\DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTweenPro">
+      <HintPath>E:\LaiTools\sandbox.coloring.number.pixel.art_2018-01-19\assets\bin\Data\Managed\DOTweenPro.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>E:\LaiTools\sandbox.coloring.number.pixel.art_2018-01-19\assets\bin\Data\Managed\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>E:\LaiTools\sandbox.coloring.number.pixel.art_2018-01-19\assets\bin\Data\Managed\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>E:\LaiTools\sandbox.coloring.number.pixel.art_2018-01-19\assets\bin\Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>E:\LaiTools\sandbox.coloring.number.pixel.art_2018-01-19\assets\bin\Data\Managed\UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>E:\LaiTools\sandbox.coloring.number.pixel.art_2018-01-19\assets\bin\Data\Managed\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>E:\LaiTools\sandbox.coloring.number.pixel.art_2018-01-19\assets\bin\Data\Managed\UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>E:\LaiTools\sandbox.coloring.number.pixel.art_2018-01-19\assets\bin\Data\Managed\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>E:\LaiTools\sandbox.coloring.number.pixel.art_2018-01-19\assets\bin\Data\Managed\UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>E:\LaiTools\sandbox.coloring.number.pixel.art_2018-01-19\assets\bin\Data\Managed\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>E:\LaiTools\sandbox.coloring.number.pixel.art_2018-01-19\assets\bin\Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>E:\LaiTools\sandbox.coloring.number.pixel.art_2018-01-19\assets\bin\Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>E:\LaiTools\sandbox.coloring.number.pixel.art_2018-01-19\assets\bin\Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing">
+      <HintPath>E:\LaiTools\sandbox.coloring.number.pixel.art_2018-01-19\assets\bin\Data\Managed\UnityEngine.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="Vectrosity">
+      <HintPath>E:\LaiTools\sandbox.coloring.number.pixel.art_2018-01-19\assets\bin\Data\Managed\Vectrosity.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>E:\LaiTools\sandbox.coloring.number.pixel.art_2018-01-19\assets\bin\Data\Managed\System.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween46">
+      <HintPath>E:\LaiTools\sandbox.coloring.number.pixel.art_2018-01-19\assets\bin\Data\Managed\DOTween46.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween43">
+      <HintPath>E:\LaiTools\sandbox.coloring.number.pixel.art_2018-01-19\assets\bin\Data\Managed\DOTween43.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>E:\LaiTools\sandbox.coloring.number.pixel.art_2018-01-19\assets\bin\Data\Managed\UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>E:\LaiTools\sandbox.coloring.number.pixel.art_2018-01-19\assets\bin\Data\Managed\UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Stores">
+      <HintPath>E:\LaiTools\sandbox.coloring.number.pixel.art_2018-01-19\assets\bin\Data\Managed\Stores.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdjustSdkManager.cs" />
+    <Compile Include="AngleHelper.cs" />
+    <Compile Include="AnimatePartialLine.cs" />
+    <Compile Include="AppConfig.cs" />
+    <Compile Include="ArrayHelper.cs" />
+    <Compile Include="Assert.cs" />
+    <Compile Include="AutoCenter.cs" />
+    <Compile Include="AxisXUi.cs" />
+    <Compile Include="Ball.cs" />
+    <Compile Include="BallRunPlayer.cs" />
+    <Compile Include="Bezier.cs" />
+    <Compile Include="ButtonInputUI.cs" />
+    <Compile Include="ButtonUIEvent.cs" />
+    <Compile Include="CameraController.cs" />
+    <Compile Include="CameraSizeControl.cs" />
+    <Compile Include="CameraZoom.cs" />
+    <Compile Include="CaptureAndSaveCamera.cs" />
+    <Compile Include="CaptureAndSaveScreen.cs" />
+    <Compile Include="CaptureAndSaveSDK.cs" />
+    <Compile Include="CaptureMainEditor.cs" />
+    <Compile Include="CaptureSceneDataEditor.cs" />
+    <Compile Include="CaptureScreenHelper.cs" />
+    <Compile Include="CaptureStartEditor.cs" />
+    <Compile Include="CharacterAnimation.cs" />
+    <Compile Include="CharacterAnimationDungeon.cs" />
+    <Compile Include="ColorButtonPoolManager.cs" />
+    <Compile Include="ColorHelper.cs" />
+    <Compile Include="ComibilityHelper.cs" />
+    <Compile Include="ComponentExtensions.cs" />
+    <Compile Include="com\adjust\sdk\Adjust.cs" />
+    <Compile Include="com\adjust\sdk\AdjustAndroid.cs" />
+    <Compile Include="com\adjust\sdk\AdjustAttribution.cs" />
+    <Compile Include="com\adjust\sdk\AdjustConfig.cs" />
+    <Compile Include="com\adjust\sdk\AdjustEnvironment.cs" />
+    <Compile Include="com\adjust\sdk\AdjustEnvironmentExtension.cs" />
+    <Compile Include="com\adjust\sdk\AdjustEvent.cs" />
+    <Compile Include="com\adjust\sdk\AdjustEventFailure.cs" />
+    <Compile Include="com\adjust\sdk\AdjustEventSuccess.cs" />
+    <Compile Include="com\adjust\sdk\AdjustLogLevel.cs" />
+    <Compile Include="com\adjust\sdk\AdjustLogLevelExtension.cs" />
+    <Compile Include="com\adjust\sdk\AdjustSessionFailure.cs" />
+    <Compile Include="com\adjust\sdk\AdjustSessionSuccess.cs" />
+    <Compile Include="com\adjust\sdk\AdjustUtils.cs" />
+    <Compile Include="com\adjust\sdk\IAdjust.cs" />
+    <Compile Include="com\adjust\sdk\JSON.cs" />
+    <Compile Include="com\adjust\sdk\JSONArray.cs" />
+    <Compile Include="com\adjust\sdk\JSONBinaryTag.cs" />
+    <Compile Include="com\adjust\sdk\JSONClass.cs" />
+    <Compile Include="com\adjust\sdk\JSONData.cs" />
+    <Compile Include="com\adjust\sdk\JSONLazyCreator.cs" />
+    <Compile Include="com\adjust\sdk\JSONNode.cs" />
+    <Compile Include="ControlUIEvent.cs" />
+    <Compile Include="ControlUIInput.cs" />
+    <Compile Include="CreateHills.cs" />
+    <Compile Include="CreateStars.cs" />
+    <Compile Include="CubeSelect.cs" />
+    <Compile Include="CurvePointControl.cs" />
+    <Compile Include="DailyManager.cs" />
+    <Compile Include="DataCategory.cs" />
+    <Compile Include="DataConfig.cs" />
+    <Compile Include="DataDirectoryGroup.cs" />
+    <Compile Include="DataImage.cs" />
+    <Compile Include="DataImageGroup.cs" />
+    <Compile Include="DataLocalization.cs" />
+    <Compile Include="DataLocalizationGroup.cs" />
+    <Compile Include="DataManager.cs" />
+    <Compile Include="DataTiles.cs" />
+    <Compile Include="DataTilesGroup.cs" />
+    <Compile Include="DG\Tweening\DOTweenAnimation.cs" />
+    <Compile Include="DG\Tweening\DOTweenAnimationExtensions.cs" />
+    <Compile Include="DictionaryHelper.cs" />
+    <Compile Include="DoubleTapMe.cs" />
+    <Compile Include="DPadParameterUI.cs" />
+    <Compile Include="DragMe.cs" />
+    <Compile Include="DrawBox.cs" />
+    <Compile Include="DrawCurve.cs" />
+    <Compile Include="DrawGrid.cs" />
+    <Compile Include="DrawLines.cs" />
+    <Compile Include="DrawLinesMouse.cs" />
+    <Compile Include="DrawLinesTouch.cs" />
+    <Compile Include="DrawPath.cs" />
+    <Compile Include="DrawPoints.cs" />
+    <Compile Include="Ellipse1.cs" />
+    <Compile Include="Ellipse2.cs" />
+    <Compile Include="EndCapDemo.cs" />
+    <Compile Include="ETCArea.cs" />
+    <Compile Include="ETCAxis.cs" />
+    <Compile Include="ETCBase.cs" />
+    <Compile Include="ETCButton.cs" />
+    <Compile Include="ETCDPad.cs" />
+    <Compile Include="ETCInput.cs" />
+    <Compile Include="ETCJoystick.cs" />
+    <Compile Include="ETCSetDirectActionTransform.cs" />
+    <Compile Include="ETCTouchPad.cs" />
+    <Compile Include="ETWindow.cs" />
+    <Compile Include="ExampleGUI.cs" />
+    <Compile Include="FingerTouch.cs" />
+    <Compile Include="FPSPlayerControl.cs" />
+    <Compile Include="GameInit.cs" />
+    <Compile Include="GameLoading.cs" />
+    <Compile Include="GameManager.cs" />
+    <Compile Include="GameReplayLayer.cs" />
+    <Compile Include="GameTilePoolManager.cs" />
+    <Compile Include="GameTilesLayer.cs" />
+    <Compile Include="GameTouchClick.cs" />
+    <Compile Include="GameTouchDrag.cs" />
+    <Compile Include="GameTouchHold.cs" />
+    <Compile Include="GameTouchLayer.cs" />
+    <Compile Include="GameTouchScale.cs" />
+    <Compile Include="GameUIManager.cs" />
+    <Compile Include="GlobalEasyTouchEvent.cs" />
+    <Compile Include="GoogleAdmobBanner.cs" />
+    <Compile Include="GoogleAdmobInterstitial.cs" />
+    <Compile Include="GoogleMobileAds\Android\AdLoaderClient.cs" />
+    <Compile Include="GoogleMobileAds\Android\BannerClient.cs" />
+    <Compile Include="GoogleMobileAds\Android\CustomNativeTemplateClient.cs" />
+    <Compile Include="GoogleMobileAds\Android\InterstitialClient.cs" />
+    <Compile Include="GoogleMobileAds\Android\MobileAdsClient.cs" />
+    <Compile Include="GoogleMobileAds\Android\NativeExpressAdClient.cs" />
+    <Compile Include="GoogleMobileAds\Android\RewardBasedVideoAdClient.cs" />
+    <Compile Include="GoogleMobileAds\Android\Utils.cs" />
+    <Compile Include="GoogleMobileAds\Api\AdFailedToLoadEventArgs.cs" />
+    <Compile Include="GoogleMobileAds\Api\AdLoader.cs" />
+    <Compile Include="GoogleMobileAds\Api\AdPosition.cs" />
+    <Compile Include="GoogleMobileAds\Api\AdRequest.cs" />
+    <Compile Include="GoogleMobileAds\Api\AdSize.cs" />
+    <Compile Include="GoogleMobileAds\Api\BannerView.cs" />
+    <Compile Include="GoogleMobileAds\Api\CustomNativeEventArgs.cs" />
+    <Compile Include="GoogleMobileAds\Api\CustomNativeTemplateAd.cs" />
+    <Compile Include="GoogleMobileAds\Api\Gender.cs" />
+    <Compile Include="GoogleMobileAds\Api\InterstitialAd.cs" />
+    <Compile Include="GoogleMobileAds\Api\Mediation\MediationExtras.cs" />
+    <Compile Include="GoogleMobileAds\Api\MobileAds.cs" />
+    <Compile Include="GoogleMobileAds\Api\NativeAdType.cs" />
+    <Compile Include="GoogleMobileAds\Api\NativeExpressAdView.cs" />
+    <Compile Include="GoogleMobileAds\Api\Reward.cs" />
+    <Compile Include="GoogleMobileAds\Api\RewardBasedVideoAd.cs" />
+    <Compile Include="GoogleMobileAds\Common\DummyClient.cs" />
+    <Compile Include="GoogleMobileAds\Common\IAdLoaderClient.cs" />
+    <Compile Include="GoogleMobileAds\Common\IBannerClient.cs" />
+    <Compile Include="GoogleMobileAds\Common\ICustomNativeTemplateClient.cs" />
+    <Compile Include="GoogleMobileAds\Common\IInterstitialClient.cs" />
+    <Compile Include="GoogleMobileAds\Common\IMobileAdsClient.cs" />
+    <Compile Include="GoogleMobileAds\Common\INativeExpressAdClient.cs" />
+    <Compile Include="GoogleMobileAds\Common\IRewardBasedVideoAdClient.cs" />
+    <Compile Include="GoogleMobileAds\Common\Utils.cs" />
+    <Compile Include="GoogleMobileAds\GoogleMobileAdsClientFactory.cs" />
+    <Compile Include="GooglePurchaseData.cs" />
+    <Compile Include="Grid3D.cs" />
+    <Compile Include="HedgehogTeam\EasyTouch\BaseFinger.cs" />
+    <Compile Include="HedgehogTeam\EasyTouch\EasyTouch.cs" />
+    <Compile Include="HedgehogTeam\EasyTouch\EasyTouchInput.cs" />
+    <Compile Include="HedgehogTeam\EasyTouch\EasyTouchTrigger.cs" />
+    <Compile Include="HedgehogTeam\EasyTouch\ECamera.cs" />
+    <Compile Include="HedgehogTeam\EasyTouch\Finger.cs" />
+    <Compile Include="HedgehogTeam\EasyTouch\Gesture.cs" />
+    <Compile Include="HedgehogTeam\EasyTouch\QuickBase.cs" />
+    <Compile Include="HedgehogTeam\EasyTouch\QuickDrag.cs" />
+    <Compile Include="HedgehogTeam\EasyTouch\QuickEnterOverExist.cs" />
+    <Compile Include="HedgehogTeam\EasyTouch\QuickLongTap.cs" />
+    <Compile Include="HedgehogTeam\EasyTouch\QuickPinch.cs" />
+    <Compile Include="HedgehogTeam\EasyTouch\QuickSwipe.cs" />
+    <Compile Include="HedgehogTeam\EasyTouch\QuickTap.cs" />
+    <Compile Include="HedgehogTeam\EasyTouch\QuickTouch.cs" />
+    <Compile Include="HedgehogTeam\EasyTouch\QuickTwist.cs" />
+    <Compile Include="HedgehogTeam\EasyTouch\TwoFingerGesture.cs" />
+    <Compile Include="Highlight.cs" />
+    <Compile Include="ImagePoolManager.cs" />
+    <Compile Include="ImpactEffect.cs" />
+    <Compile Include="InfinityItemColor.cs" />
+    <Compile Include="ItemHorizontal1.cs" />
+    <Compile Include="ItemHorizontal2.cs" />
+    <Compile Include="ItemSample.cs" />
+    <Compile Include="ItemSkip.cs" />
+    <Compile Include="ItemUser.cs" />
+    <Compile Include="JsonReader.cs" />
+    <Compile Include="LanguageManager.cs" />
+    <Compile Include="LevelDataManager.cs" />
+    <Compile Include="LevelManager.cs" />
+    <Compile Include="Line.cs" />
+    <Compile Include="ListHelper.cs" />
+    <Compile Include="ListSample.cs" />
+    <Compile Include="LoadExamples.cs" />
+    <Compile Include="LoadLevelScript.cs" />
+    <Compile Include="LongTapMe.cs" />
+    <Compile Include="MainUIManager.cs" />
+    <Compile Include="MakeSpheres.cs" />
+    <Compile Include="MakeSpline.cs" />
+    <Compile Include="MaskLine1.cs" />
+    <Compile Include="MaskLine2.cs" />
+    <Compile Include="MathHelper.cs" />
+    <Compile Include="MonoPInvokeCallbackAttribute.cs" />
+    <Compile Include="MultiCameraTouch.cs" />
+    <Compile Include="MultiCameraUI.cs" />
+    <Compile Include="MultiLayerTouch.cs" />
+    <Compile Include="MultiLayerUI.cs" />
+    <Compile Include="MutliFingersScreenTouch.cs" />
+    <Compile Include="NestedScrollRect.cs" />
+    <Compile Include="NumberPoolManager.cs" />
+    <Compile Include="OneP\InfinityScrollView\DetemineLocationType.cs" />
+    <Compile Include="OneP\InfinityScrollView\HorizontalType.cs" />
+    <Compile Include="OneP\InfinityScrollView\InfinityBaseItem.cs" />
+    <Compile Include="OneP\InfinityScrollView\InfinityScrollView.cs" />
+    <Compile Include="OneP\InfinityScrollView\InfinityType.cs" />
+    <Compile Include="OneP\InfinityScrollView\RectTransformExtensions.cs" />
+    <Compile Include="OneP\InfinityScrollView\VerticalType.cs" />
+    <Compile Include="OneP\Samples\CheckFPS.cs" />
+    <Compile Include="OneP\Samples\CustomSpriteData.cs" />
+    <Compile Include="OneP\Samples\DownloadFileUtil.cs" />
+    <Compile Include="OneP\Samples\ExtraInfoDownload.cs" />
+    <Compile Include="OneP\Samples\ResourceLoaderManager.cs" />
+    <Compile Include="OneP\Samples\SampleGlobalValue.cs" />
+    <Compile Include="OneP\Samples\SampleScene.cs" />
+    <Compile Include="OneP\Samples\Singleton.cs" />
+    <Compile Include="OneP\Samples\SingletonMono.cs" />
+    <Compile Include="Orbit.cs" />
+    <Compile Include="PinchMe.cs" />
+    <Compile Include="PlayerManager.cs" />
+    <Compile Include="PositionHelper.cs" />
+    <Compile Include="PowerBar.cs" />
+    <Compile Include="PreviewAndSave.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RandomHelper.cs" />
+    <Compile Include="ReallyBasicLine.cs" />
+    <Compile Include="ReplayTilePoolManager.cs" />
+    <Compile Include="ResourceHelper.cs" />
+    <Compile Include="RotateAroundY.cs" />
+    <Compile Include="RotateViewpoint.cs" />
+    <Compile Include="RotationHelper.cs" />
+    <Compile Include="RTSCamera.cs" />
+    <Compile Include="RTS_NewSyntaxe.cs" />
+    <Compile Include="Sample1.cs" />
+    <Compile Include="Sample2.cs" />
+    <Compile Include="Sample3.cs" />
+    <Compile Include="SceneGameManager.cs" />
+    <Compile Include="SceneHelper.cs" />
+    <Compile Include="ScribbleCube.cs" />
+    <Compile Include="ScrollViewFitHeight.cs" />
+    <Compile Include="ScrollViewFitPosX.cs" />
+    <Compile Include="SDKManager.cs" />
+    <Compile Include="SelectionBox.cs" />
+    <Compile Include="SelectionBox2.cs" />
+    <Compile Include="SelectLine.cs" />
+    <Compile Include="Simple3D.cs" />
+    <Compile Include="Simple3D2.cs" />
+    <Compile Include="Simple3D3.cs" />
+    <Compile Include="SimpleActionExample.cs" />
+    <Compile Include="SimpleCurve.cs" />
+    <Compile Include="SliderText.cs" />
+    <Compile Include="SplineFollow2D.cs" />
+    <Compile Include="SplineFollow3D.cs" />
+    <Compile Include="StringHelper.cs" />
+    <Compile Include="SubscriptionVip.cs" />
+    <Compile Include="SubscriptionVipIOS.cs" />
+    <Compile Include="SubscriptionVipTwo.cs" />
+    <Compile Include="Swipe.cs" />
+    <Compile Include="TapMe.cs" />
+    <Compile Include="TestFun.cs" />
+    <Compile Include="TestOptimize.cs" />
+    <Compile Include="TextDemo.cs" />
+    <Compile Include="TextureHelper.cs" />
+    <Compile Include="TextureUtility.cs" />
+    <Compile Include="ThirdPersonCamera.cs" />
+    <Compile Include="Tile.cs" />
+    <Compile Include="TileGridManager.cs" />
+    <Compile Include="TileManager.cs" />
+    <Compile Include="TileReplay.cs" />
+    <Compile Include="TimeHelper.cs" />
+    <Compile Include="TooglePickMethodUI.cs" />
+    <Compile Include="TouchMe.cs" />
+    <Compile Include="TouchPadUIEvent.cs" />
+    <Compile Include="Trace.cs" />
+    <Compile Include="TransformHelper.cs" />
+    <Compile Include="TrimDataEditor.cs" />
+    <Compile Include="TwistMe.cs" />
+    <Compile Include="TwoDoubleTapMe.cs" />
+    <Compile Include="TwoDragMe.cs" />
+    <Compile Include="TwoLongTapMe.cs" />
+    <Compile Include="TwoSwipe.cs" />
+    <Compile Include="TwoTapMe.cs" />
+    <Compile Include="TwoTouchMe.cs" />
+    <Compile Include="UICategoryScrollView.cs" />
+    <Compile Include="UICategroyCell.cs" />
+    <Compile Include="UICategroyDetialPanel.cs" />
+    <Compile Include="UIColorCellButton.cs" />
+    <Compile Include="UICompatibility.cs" />
+    <Compile Include="UIDrag.cs" />
+    <Compile Include="UIDragEventSyn.cs" />
+    <Compile Include="UIFUHelper.cs" />
+    <Compile Include="UILoadingPanel.cs" />
+    <Compile Include="UIMainPanel.cs" />
+    <Compile Include="UIMyWorkPanel.cs" />
+    <Compile Include="UIPinch.cs" />
+    <Compile Include="UIRatePanel.cs" />
+    <Compile Include="UISaveTipsPanel.cs" />
+    <Compile Include="UIScrollViewDragDirection.cs" />
+    <Compile Include="UIThumbCellBig.cs" />
+    <Compile Include="UIThumbCellSmall.cs" />
+    <Compile Include="UITwist.cs" />
+    <Compile Include="UIVipPanel.cs" />
+    <Compile Include="UIWindow.cs" />
+    <Compile Include="UniformTexturedLine.cs" />
+    <Compile Include="VectorObject.cs" />
+    <Compile Include="Vibration.cs" />
+    <Compile Include="XrayLineData.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
